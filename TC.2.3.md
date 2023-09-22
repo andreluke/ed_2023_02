@@ -26,5 +26,5 @@ Função fatorialComArmazenamento(n):
 <br>
 <p>Por exemplo, se chamarmos fatorialComArmazenamento(5), a lista lista_resultados conterá [1, 2, 6, 24] após a execução, armazenando todos os resultados intermediários.</p> 
 <p>Isso aumenta a complexidade espacial do algoritmo em comparação com uma implementação não recursiva ou recursiva que não mantém essa lista de resultados.</p>
-<p>Então a complexidade espacial deste algoritmo é maior devido ao uso da lista interna para armazenar dados intermediários, o que não é necessário em um cálculo simples de fatorial. Exemplo em <a href=https://github.com/andreluke/ed_2023_02/blob/main/TC.2.3a.ts>.ts</a>.</p>
+<p>Então a complexidade espacial deste algoritmo é maior devido ao uso da lista interna para armazenar dados intermediários, o que não é necessário em um cálculo simples de fatorial.
 
