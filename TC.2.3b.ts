@@ -1,5 +1,5 @@
-class FatorialCalculador {
-    calcularFatorial(n: number): number {
+class FatorialCalculador1 {
+    calcularFatorial1(n: number): number {
         if (n === 0 || n === 1) {
             return 1;
         } else {
@@ -12,6 +12,6 @@ class FatorialCalculador {
     }
 }
 
-const fatorialCalculador = new FatorialCalculador();
-const resultado = fatorialCalculador.calcularFatorial(5);
-console.log("Resultado do fatorial:", resultado);
+const fatorialCalculador1 = new FatorialCalculador1();
+const resultado1 = fatorialCalculador1.calcularFatorial1(5);
+console.log("Resultado do fatorial:", resultado1);
