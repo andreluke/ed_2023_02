@@ -21,10 +21,12 @@ Função fatorialComArmazenamento(n):
         Retorne fatorial_n
 
 <h2>Exemplo 2: </h2>
+
 Função calcularFatorial(n):
     Se n = 0 ou n = 1:
         Retorne 1
     Senão:
+    # Calcular retorno
         resultado = 1
         Para i de 2 até n, passo 1:
             resultado = resultado * i
