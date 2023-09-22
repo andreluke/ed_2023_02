@@ -21,16 +21,11 @@ Função fatorialComArmazenamento(n):
         Retorne fatorial_n
 
 <h2>Exemplo 2: </h2>
-
-Função calcularFatorial(n):
-    <p> Se n = 0 ou n = 1: </p>
-    <p>   Retorne 1 </p>
-    <p> Senão: </p>
-    <p> # Calcular retorno </p>
-     <p>   resultado = 1 </p>
-        <p> Para i de 2 até n, passo 1: </p>
-            <p> resultado = resultado * i </p>
-        <p> Retorne resultado </p>
+<p> Função calcularFatorialRecursivo(n):</p>
+    <p>Se n = 0 ou n = 1:</p>
+        <p>Retorne 1</p>
+    <p>Senão:</p>
+        <p>Retorne n * calcularFatorialRecursivo(n - 1)</p>
 
   <h2>Explicacao</h2>
 <p>No exemplo, a função fatorialComArmazenamento calcula o fatorial de um número n de forma recursiva. No entanto, ela armazena todos os resultados intermediários em uma lista interna chamada lista_resultados.</p> 
