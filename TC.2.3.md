@@ -2,7 +2,7 @@
 <h3>Com complexidade espacial superior a outro em decorrência principalmente a dados internos da função e não como decorrência da entrada.</h3>
 <p>Para exemplificar, consideraremos uma <b>função recursiva</b> que calcula o fatorial de um número, mas que <i>armazena</i> cada resultado parcial em uma lista interna.</p>
 <p>Isso aumentará a complexidade espacial em relação a uma versão mais simples que não armazena resultados intermediários.</p>
-<h2>Exemplo: </h2>
+<h2>Exemplo 1: </h2>
 Função fatorialComArmazenamento(n):
 
     Se n == 0 ou n == 1:
@@ -19,6 +19,16 @@ Função fatorialComArmazenamento(n):
         fatorial_n = n * fatorial_n_1
         
         Retorne fatorial_n
+
+<h2>Exemplo 2: </h2>
+Função calcularFatorial(n):
+    Se n = 0 ou n = 1:
+        Retorne 1
+    Senão:
+        resultado = 1
+        Para i de 2 até n, passo 1:
+            resultado = resultado * i
+        Retorne resultado
 
   <h2>Explicacao</h2>
 <p>No exemplo, a função fatorialComArmazenamento calcula o fatorial de um número n de forma recursiva. No entanto, ela armazena todos os resultados intermediários em uma lista interna chamada lista_resultados.</p> 
